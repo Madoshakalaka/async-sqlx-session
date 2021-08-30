@@ -33,4 +33,4 @@ async-std = { version = "1.9.0", features = ["attributes"] }
 
 [dev-dependencies.sqlx]
 version = "0.5.5"
-features = ["chrono", "runtime-async-std-native-tls"]
+features = ["chrono", "runtime-tokio-rustls"]
