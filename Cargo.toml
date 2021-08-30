@@ -17,8 +17,8 @@ features = ["pg", "sqlite", "mysql", "async_std_native_tls", "async_std_rustls",
 [features]
 sqlite = ["sqlx/sqlite"]
 pg = ["sqlx/postgres", "sqlx/json"]
-async_std_native_tls = ["sqlx/runtime-async-std-native-tls", "async-std"]
-async_std_rustls = ["sqlx/runtime-async-std-rustls", "async-std"]
+
+
 tokio_native_tls = ["sqlx/runtime-tokio-native-tls"]
 tokio_rustls = ["sqlx/runtime-tokio-rustls"]
 mysql = ["sqlx/mysql", "sqlx/json"]
